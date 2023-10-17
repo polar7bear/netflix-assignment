@@ -1,0 +1,11 @@
+.section1 {
+    height: 700px; 
+    top: -60px; 
+    position: relative;
+}
+
+.section1 img {
+    object-fit: cover; 
+    object-position: top;
+    width: 100%;
+}
