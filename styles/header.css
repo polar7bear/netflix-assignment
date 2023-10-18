@@ -47,3 +47,20 @@
     margin-right: 10px;
 }
 
+@media (min-width:677px) and (max-width:822px) {
+    .header_list li:last-child {
+        display:none;
+    }
+}
+
+@media (min-width:546px) and (max-width:678px) {
+    .header_list li:last-child, .header_list li:nth-last-child(2){
+        display:none;
+    }
+}
+
+@media (min-width:500px) and (max-width:546px) {
+    .header_list li:last-child, .header_list li:nth-last-child(3){
+        display:none;
+    }
+}
